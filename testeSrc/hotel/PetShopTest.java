@@ -2,7 +2,7 @@
  * Gabriel Silva Vinha - Monitoria de LP2 - 2016.1
  */
 
-package testes;
+package hotel;
 
 import static org.junit.Assert.*;
 
@@ -82,9 +82,9 @@ public class PetShopTest {
 			assertEquals(4, recepcao.getNumDeHospedes(), 0.05);
 			assertEquals(2710.0, recepcao.getLucroTotal(), 0.05);
 			
-			recepcao.checkOut("Frederico Mercury");
-			recepcao.checkOut("Toto");
-			recepcao.checkOut("Gabriel");
+			recepcao.chekOut("Frederico Mercury");
+			recepcao.chekOut("Toto");
+			recepcao.chekOut("Gabriel");
 			
 			assertEquals(1, recepcao.getNumDeHospedes());
 			

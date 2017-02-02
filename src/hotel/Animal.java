@@ -4,7 +4,7 @@ public class Animal {
 	private String nome;
 	private String tipo;
 	private int idade;
-	
+
 	public Animal(String nome, String tipo, int idade){
 		this.nome = nome;
 		this.tipo = tipo;
@@ -41,10 +41,10 @@ public class Animal {
 		if(obj instanceof Animal){
 			Animal papagaio = (Animal) obj;
 			if(papagaio.getNome().equalsIgnoreCase(this.getNome()) && papagaio.getTipo().equalsIgnoreCase(getTipo()))
-			return true;
-			}
+				return true;
+		}
 		return false;
 	}
-	
-	
+
+
 }
