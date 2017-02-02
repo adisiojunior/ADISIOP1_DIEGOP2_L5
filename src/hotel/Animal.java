@@ -3,9 +3,9 @@ package hotel;
 public class Animal {
 	private String nome;
 	private String tipo;
-	private String idade;
+	private int idade;
 	
-	public Animal(String nome, String tipo, String idade){
+	public Animal(String nome, String tipo, int idade){
 		this.nome = nome;
 		this.tipo = tipo;
 		this.idade = idade;
@@ -27,11 +27,11 @@ public class Animal {
 		this.tipo = tipo;
 	}
 
-	public String getIdade() {
+	public int getIdade() {
 		return idade;
 	}
 
-	public void setIdade(String idade) {
+	public void setIdade(int idade) {
 		this.idade = idade;
 	}
 
